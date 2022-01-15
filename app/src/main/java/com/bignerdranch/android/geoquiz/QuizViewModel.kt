@@ -14,7 +14,8 @@ class QuizViewModel : ViewModel() {
         Question(R.string.question_mideast, false),
         Question(R.string.question_africa, false),
         Question(R.string.question_americas, true),
-        Question(R.string.question_asia, true)
+        Question(R.string.question_asia, true),
+        Question(R.string.question_ukraine, true)
     )
 
     private val amountQuestion: IntArray = IntArray(questionBank.size) { 0 }
